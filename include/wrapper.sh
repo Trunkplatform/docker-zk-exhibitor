@@ -91,5 +91,5 @@ java -jar /opt/exhibitor/exhibitor.jar \
   --port 8181 --defaultconfig /opt/exhibitor/defaults.conf \
   ${BACKUP_CONFIG} \
   ${HTTP_PROXY} \
-  --hostname ${HOSTNAME} \
+  --hostname ${DOCKERCLOUD_CONTAINER_HOSTNAME} \
   ${SECURITY}
